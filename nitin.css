@@ -52,7 +52,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #42A5F5;
+    background: #dfdc15;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -85,7 +85,7 @@ nav ul li a:hover::after {
 }
 
 .hire-me-btn:active {
-    background-color: #8e386a; /* Even darker green when pressed */
+    background-color: #d22f2f; /* Even darker green when pressed */
     transform: scale(0.98); /* Slightly decrease size when pressed */
 }
 
@@ -146,7 +146,7 @@ body {
 }
 
 .header-text h1 span {
-    color: #5d31cd;
+    color: #e7e416;
 }
 
 /* About Section Styles */
@@ -197,7 +197,7 @@ body {
     content: '';
     width: 0;
     height: 3px;
-    background: #1260a0;
+    background: #eaf608;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -215,7 +215,7 @@ body {
 
 .tab-contentes ul li span {
     color: #d03535;
-    font-size: 14px;
+    font-size: 25px;
 }
 
 .tab-contentes {
@@ -269,7 +269,7 @@ body {
 }
 
 .services-list div:hover {
-    background: #6635d0;
+    background: #2561d1;
     transform: translateY(-10px);
 }
 #skills {
@@ -282,7 +282,7 @@ body {
     padding: 20px; /* Add some padding inside the container */
     border: 2px solid #fff; /* Add a white border around the container */
     border-radius: 10px; /* Add rounded corners to the container */
-    background-color: #2c2c2c; /* Set a background color to match the skill cards */
+    background-color: #000000; /* Set a background color to match the skill cards */
 }
 
 .skills-grid {
@@ -296,7 +296,7 @@ body {
     background-color: #2c2c2c;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(230, 197, 9, 0.5);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -315,7 +315,7 @@ body {
 
 .skill-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 20px 30px rgba(245, 218, 9, 0.5);
 }
 
 /* Portfolio Section Styles */
@@ -346,7 +346,7 @@ body {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #6f00ff);
+    background: linear-gradient(rgba(210, 210, 13, 0.6), #108ee7);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -370,7 +370,7 @@ body {
 
 .layer a {
     margin-top: 20px;
-    color: #6f61ed;
+    color: #dde02e;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -394,7 +394,7 @@ body {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #7175d7;
+    border: 1px solid #d5d771;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -403,7 +403,7 @@ body {
 }
 
 .btn:hover {
-    background: blue;
+    background: rgb(173, 212, 56);
 }
 
 /* Contact Section Styles */
@@ -424,7 +424,7 @@ body {
 }
 
 .contact-left p i {
-    color: #3300ff;
+    color: #148f89;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -435,7 +435,7 @@ body {
 }
 
 .social-icons a {
-    color: #ababab;
+    color: #e8e9e1;
     font-size: 30px;
     margin-right: 15px;
     transition: color 0.5s, transform 0.5s;
@@ -444,13 +444,13 @@ body {
 }
 
 .social-icons a:hover {
-    color: #6435d0;
+    color: #c1d035;
     transform: translateY(-5px);
 }
 
 .btn.btn2 {
     display: inline-block;
-    background: #2e1edd;
+    background: #626a20;
 }
 
 .contact-right form {
@@ -486,7 +486,7 @@ form input, form textarea {
 }
 
 .copyright i {
-    color: #c50000;
+    color: #c58a00;
 }
 
 nav .fas {
@@ -558,7 +558,7 @@ h1 {
     }
    
     nav ul {
-        background: #9c35d0;
+        background: #07625c;
         position: fixed;
         top: 0;
         right: -200px;
