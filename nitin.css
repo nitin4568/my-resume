@@ -149,6 +149,7 @@ body {
     color: #e7e416;
 }
 
+
 /* About Section Styles */
 #About {
     padding: 80px 0;
@@ -507,6 +508,52 @@ nav .fas {
 h1 {
     margin-bottom: 20px;
 }
+.btn-next33 {
+    background-color: #5cb85c; /* Button background color */
+    color: white; /* Button text color */
+    padding: 15px 10px; /* Smaller padding for a smaller button */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px; 
+    margin: 10px 2px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.btn-next33:hover {
+    background-color: #4caea6; 
+}
+.next-page {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.next-page .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff; /* Or any other color you prefer */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.next-page .btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+
+
+
 
 
 /* Media Queries for Responsive Design */
