@@ -12,12 +12,9 @@
     <div id="header">
         <div class="container">
             <nav>
-                
                 <i class="fas fa-bars" onclick="openmenu()"></i>
-
                 <span class="name">Nitin Gautam</span>
                 <ul id="sidemenu">
-                    
                     <li><a href="#header">Home</a></li>
                     <li><a href="#About">About</a></li>
                     <li><a href="#services">Services</a></li>
@@ -25,25 +22,19 @@
                     <button class="hire-me-btn">
                         <i class="fa-solid fa-phone"></i>
                         Hire Me
-                    </button
+                    </button>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
-               
             </nav>
         </div>
         <div class="header-text">
             <p>Application Developer</p>
             <h1>Hi, I'm <span>Nitin Gautam</span><br></h1>
-            <p>I am a dedicated developer, eager learner, and committed
-                student who loves diving into new technologies and giving </p>
-                <p>   my best in every task. With a focus on continuous improvement
-               and excellence, I excel in overcoming </p> <p> challenges and 
-                 contributing to forward-thinking projects.</p>
+            <p>I am a dedicated developer, eager learner, and committed student who loves diving into new technologies and giving my best in every task. With a focus on continuous improvement and excellence, I excel in overcoming challenges and contributing to forward-thinking projects.</p>
             <div class="about-col-5">
                 <img src="free.png" alt="Nitin Gautam">
             </div>
         </div>
-        
     </div>
     <div id="About">
         <div class="container">
@@ -303,9 +294,9 @@
             sidemenu.style.right = "0";
         }
         function closemenu() {
-            sidemenu.style.right = "-200px";
+            sidemenu.style.right = "-50px"; // Correct the property name
         }
-
+        
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxWXuajQ-YzQuRNjDowiTPlKv3h04l7OL73Vi5KXxDUA2TbaHyHkfclMj4cqSWEgOVZ/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
@@ -330,6 +321,7 @@
                 const phoneNumber = '+918085476868'; // Replace with your actual phone number
                 if (confirm(`Do you want to call ${phoneNumber}?`)) {
                     window.location.href = `tel:${phoneNumber}`;
+                    
                 }
             });
         });

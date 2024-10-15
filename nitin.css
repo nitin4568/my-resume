@@ -509,28 +509,36 @@ h1 {
     margin-bottom: 20px;
 }
 .btn-next33 {
-    background-color: #5cb85c; /* Button background color */
-    color: white; /* Button text color */
-    padding: 15px 10px; /* Smaller padding for a smaller button */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px; 
-    margin: 10px 2px;
+    background-color: #007bff;
+    color: white;
+    border: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-  
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
 }
 
+/* Hover and active effects */
+.btn-next33:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.btn-next33:active {
+    background-color: #004085;
+    transform: translateY(0);
+}
+
+/* Centering the button in its container */
 .btn-container {
     display: flex;
-    justify-content: center; 
-    
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure the container is full width */
 }
 
-.btn-next33:hover {
-    background-color: #4caea6; 
-}
+
 .next-page {
     text-align: center;
     margin: 20px 0;
@@ -541,52 +549,39 @@ h1 {
     font-size: 16px;
     text-decoration: none;
     color: #fff;
-    background-color: #007bff; /* Or any other color you prefer */
+    background-color: #007bff;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .next-page .btn:hover {
-    background-color: #0056b3; /* Darker shade on hover */
+    background-color: #0056b3;
 }
 
-
-
-
-
-
-
-/* Media Queries for Responsive Design */
-
-/* Large desktops */
 @media (min-width: 1200px) {
     .skills-grid {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 }
 
-/* Medium desktops and laptops */
 @media (min-width: 992px) and (max-width: 1199px) {
     .skills-grid {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 }
 
-/* Tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
     .skills-grid {
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
 }
 
-/* Mobile devices */
 @media (max-width: 767px) {
     .skills-grid {
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        gap: 10px; /* Reduce gap for smaller screens */
+        gap: 10px;
     }
 }
-
 
 @media only screen and (max-width: 600px) {
     #header {
@@ -668,4 +663,38 @@ h1 {
     margin-top: -10px;
     display: block;
 }
- 
+
+@media (min-width: 1200px) {
+    .btn-next33 {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .btn-next33 {
+        font-size: 16px;
+        padding: 14px 28px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .btn-next33 {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn-next33 {
+        font-size: 12px;
+        padding: 10px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .btn-container {
+        text-align: center;
+    }
+}
+
