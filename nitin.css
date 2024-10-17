@@ -247,7 +247,7 @@ body {
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
+    transition: cubic-bezier(0.755, 0.05, 0.855, 0.06) 0.5s, transform 0.5s;
 }
 
 .services-list div i {
